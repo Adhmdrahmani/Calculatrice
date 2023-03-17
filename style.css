@@ -1,0 +1,94 @@
+.background{
+    background: black;
+    height: 500px;
+    width: 330px;
+}
+.calculator {
+    display: grid;
+    grid-template-columns : 400px;
+    grid-template-rows : 4fr 100px;
+    color: white;
+  }
+  .screen {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow ', sans-serif;
+    background-color: black;
+    height: 70px;
+    width: 300px ;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    font-size: 24px;
+  }
+  .number{  
+    color: white;
+    background-color: #313131;
+    border-radius: 90px;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  .function{    
+    color: white;
+    background-color: #F38508;
+    border-radius: 90px;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  .functions{  
+    color: white;  
+    background-color: #9F9F9F;
+    border-radius: 90px;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  .numbers{ 
+    color: white;
+    background-color:#313131;
+    border-radius: 90px;
+    width: 150px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  .virgule{ 
+    color: white;
+    background-color: #313131;
+    border-radius: 90px;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  .buttons {
+    font-family: arial;
+    font-size: 0.5px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    cursor: default;
+  }   
+
+  
